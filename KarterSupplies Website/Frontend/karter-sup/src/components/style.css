@@ -1,0 +1,96 @@
+body {
+   margin: 0;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+   background-color: #f5f5f5;
+ }
+ 
+ code {
+   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+ }
+ 
+ .navbar {
+   background-color: #01796f;
+   padding: 1rem;
+   color: white;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+ }
+ 
+ .nav-links a {
+   color: white;
+   text-decoration: none;
+   margin: 0 1rem;
+ }
+ 
+ .nav-links a:hover {
+   text-decoration: underline;
+ }
+
+ .nav-icon {
+   display: none;
+ }
+ .img1 {
+  width: 2.5rem;
+  padding-right: 9px;
+  
+ }
+/*
+ .logo {
+   display: flex;
+   font-size: 1.5rem;
+   font-weight: bold;
+ }
+ */
+ 
+ .hero{
+  background: linear-gradient(#05161ac0,#01796f), url(../assets/1.1.jpeg)no-repeat center center/cover;
+  padding: 9rem 1rem;
+  text-align: center;
+  color: white;
+ }
+ 
+ .hero h1 {
+   font-size: 2.5rem;
+   margin-bottom: 1rem;
+ }
+ 
+ .hero p {
+   font-size: 1.25rem;
+ }
+ 
+ .intro, .key-services {
+   padding: 2rem 1rem;
+   text-align: center;
+ }
+ 
+ .key-services .services {
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+ }
+ 
+ .key-services .service {
+   width: 30%;
+   min-width: 250px;
+   margin: 1rem 0;
+ }
+ 
+ .footer {
+   background-color: #01796f;
+   color: white;
+   text-align: center;
+   padding: 1rem;
+ }
+ 
+ @media (max-width: 768px) {
+   .nav-links {
+     display: none;
+   }
+   .nav-icon {
+     display: block;
+   }
+ }
+ 
