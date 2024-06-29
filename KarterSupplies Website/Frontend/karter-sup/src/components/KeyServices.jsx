@@ -1,26 +1,39 @@
 import React from 'react';
 import './style.css';
+import articleImage from '../assets/image.png'; // Adjust the path if necessary
 
-const KeyServices = () => {
+const ArticleLayout = () => {
   return (
-    <section className="key-services">
-      <h2>Our Services</h2>
-      <div className="services">
-        <div className="service">
-          <h3>Service 1</h3>
-          <p>Details about Service 1.</p>
+    <section className="article-layout">
+      <h1>Add Your Title Here</h1>
+      <div className="articles">
+        <div className="article">
+          <img src={articleImage} alt="Article 1" />
+          <h3>Your Article Title Goes Here</h3>
+          <p>This space is for an excerpt or preview of your main article. You can opt to simply add the first paragraph directly, or create a summary or teaser for it.</p>
+          <p>Whatever you choose, don't give everything away! After all, you want them to read the full article.</p>
         </div>
-        <div className="service">
-          <h3>Service 2</h3>
-          <p>Details about Service 2.</p>
+        <div className="article">
+          <img src={articleImage} alt="Article 2" />
+          <h3>Your Article Title Goes Here</h3>
+          <p>This space is for an excerpt or preview of your main article. You can opt to simply add the first paragraph directly, or create a summary or teaser for it.</p>
+          <p>Whatever you choose, don't give everything away! After all, you want them to read the full article.</p>
         </div>
-        <div className="service">
-          <h3>Service 3</h3>
-          <p>Details about Service 3.</p>
+        <div className="article">
+          <img src={articleImage} alt="Article 3" />
+          <h3>Your Article Title Goes Here</h3>
+          <p>This space is for an excerpt or preview of your main article. You can opt to simply add the first paragraph directly, or create a summary or teaser for it.</p>
+          <p>Whatever you choose, don't give everything away! After all, you want them to read the full article.</p>
+        </div>
+        <div className="article">
+          <img src={articleImage} alt="Article 4" />
+          <h3>Your Article Title Goes Here</h3>
+          <p>This space is for an excerpt or preview of your main article. You can opt to simply add the first paragraph directly, or create a summary or teaser for it.</p>
+          <p>Whatever you choose, don't give everything away! After all, you want them to read the full article.</p>
         </div>
       </div>
     </section>
   );
 };
 
-export default KeyServices;
+export default ArticleLayout;
