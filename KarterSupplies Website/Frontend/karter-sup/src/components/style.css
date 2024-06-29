@@ -76,6 +76,7 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  text-align: left;
   margin-bottom: 2rem;
   border: solid #01796f;
   border-radius: 20px;

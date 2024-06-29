@@ -1,6 +1,9 @@
 import React from 'react';
 import './style.css';
 import cargo from '../assets/Cargo.jpg'
+import h1 from '../assets/h1.jpeg'
+import tech2 from '../assets/tech2.jpeg'
+import mine1 from '../assets/mine1.jpeg'
 
 const Intro = () => {
   return (
@@ -18,30 +21,30 @@ const Intro = () => {
       </div>
       <div className="intro-extras">
         <div className="extra-item">
-          <h3></h3>
-          <p>Catch me on Twitch every Saturday as I make art live.</p>
+          <h3>Health Sector</h3>
+          <p>Providing Hospitals with the best Equipments and tools</p>
         </div>
         <div className="extra-item">
-          <h3>Services</h3>
-          <p>Videos to guide and to inspire you create.</p>
+          <h3>Mining Sector</h3>
+          <p>Supplying Mines and Contruction Companies with the most releable euipments and suitable tools for the Job</p>
         </div>
         <div className="extra-item">
-          <h3>Top Picks & Recos</h3>
-          <p>Materials I stand by and would love for you to try.</p>
+          <h3>Tech Sector</h3>
+          <p>Giving the Tech Industry the latest Tech</p>
         </div>
       </div>
       <div className="intro-categories">
         <div className="category-item">
-          <img src="../assets/art.jpg" alt="Art" />
-          <p>Art</p>
+          <img src={h1} alt="Health" />
+         {/* <p>Art</p>   */ }
         </div>
         <div className="category-item">
-          <img src="../assets/inspo.jpg" alt="Inspo" />
-          <p>Inspo</p>
+          <img src={mine1} alt="mine" />
+         {/*  <p>Inspo</p>   */}
         </div>
         <div className="category-item">
-          <img src="../assets/fashion.jpg" alt="Fashion" />
-          <p>Fashion</p>
+          <img src={tech2} alt="tech" />
+          {/*   <p>Fashion</p>   */}
         </div>
       </div>
     </section>
