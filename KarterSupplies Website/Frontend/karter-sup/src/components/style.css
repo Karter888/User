@@ -23,19 +23,24 @@ body {
    color: white;
    text-decoration: none;
    margin: 0 1rem;
+   padding: 0.5rem 1rem;
+  border-radius: 20px;
+  transition: background-color 0.3s, color 0.3s;
  }
  
  .nav-links a:hover {
-   text-decoration: underline;
- }
+   background-color: #025d53;
+  color: #ffffff; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+}
 
  .nav-icon {
    display: none;
  }
  .img1 {
-  width: 2.5rem;
-  padding-right: 9px;
-  
+    width: 2.5rem; 
+    display: flex;
  }
 /*
  .logo {
